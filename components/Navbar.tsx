@@ -2,13 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "./ui/Button";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export function Navbar() {
     return (
         <header className="fixed top-0 w-full z-50 border-b border-slate-800/50 bg-slate-950/80 backdrop-blur-xl">
             <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
                 <Link className="flex items-center gap-2" href="#">
                     <Image 
-                        src="/logo.png" 
+                        src={`${basePath}/logo.png`}
                         alt="Akıllı Çağrı" 
                         width={360} 
                         height={120}
