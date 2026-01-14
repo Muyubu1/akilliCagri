@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import logoImage from "@/assets/logoAkıllıCagrı.png";
 
 export function Footer() {
     return (
@@ -9,7 +10,7 @@ export function Footer() {
                     <div className="space-y-4">
                         <Link className="flex items-center gap-2" href="#">
                             <Image 
-                                src="/logoAkıllıCagrı.png" 
+                                src={logoImage} 
                                 alt="Akıllı Çağrı" 
                                 width={140} 
                                 height={46}
