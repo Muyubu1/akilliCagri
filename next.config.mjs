@@ -2,7 +2,6 @@
 const nextConfig = {
     output: 'export',
     basePath: '/akilliCagri',
-    assetPrefix: '/akilliCagri/',
     images: {
         unoptimized: true,
     },

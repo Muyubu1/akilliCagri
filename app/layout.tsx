@@ -9,11 +9,11 @@ const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" });
 export const metadata: Metadata = {
     title: "Akıllı Çağrı - Otomatize Telekom AI",
     description: "Kobiler için yeni nesil yapay zeka asistanı.",
-    metadataBase: new URL('https://muyubu1.github.io'),
+    metadataBase: new URL('https://muyubu1.github.io/akilliCagri'),
     openGraph: {
         title: "Akıllı Çağrı - Otomatize Telekom AI",
         description: "Kobiler için yeni nesil yapay zeka asistanı.",
-        images: ["/akilliCagri/logo.png"],
+        images: ["/logo.png"],
         locale: "tr_TR",
         type: "website",
     },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         card: "summary_large_image",
         title: "Akıllı Çağrı - Otomatize Telekom AI",
         description: "Kobiler için yeni nesil yapay zeka asistanı.",
-        images: ["/akilliCagri/logo.png"],
+        images: ["/logo.png"],
     },
 };
 
