@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "./ui/Button";
-import logoImage from "@/assets/logoAkıllıCagrı.png";
 
 export function Navbar() {
     return (
@@ -9,7 +8,7 @@ export function Navbar() {
             <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
                 <Link className="flex items-center gap-2" href="#">
                     <Image 
-                        src={logoImage} 
+                        src="/logo.png" 
                         alt="Akıllı Çağrı" 
                         width={360} 
                         height={120}

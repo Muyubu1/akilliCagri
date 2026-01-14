@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { LayoutDashboard, Settings, PhoneCall, Users, LogOut } from "lucide-react";
-import logoImage from "@/assets/logoAkıllıCagrı.png";
 
 export default function DashboardLayout({
     children,
@@ -15,7 +14,7 @@ export default function DashboardLayout({
                 <div className="flex h-16 items-center px-6 border-b border-slate-800/50">
                     <Link className="flex items-center gap-2" href="/">
                         <Image 
-                            src={logoImage} 
+                            src="/logo.png" 
                             alt="Akıllı Çağrı" 
                             width={360} 
                             height={120}

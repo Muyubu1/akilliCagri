@@ -9,6 +9,24 @@ const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" });
 export const metadata: Metadata = {
     title: "Akıllı Çağrı - Otomatize Telekom AI",
     description: "Kobiler için yeni nesil yapay zeka asistanı.",
+    icons: {
+        icon: "/logo.png",
+        shortcut: "/logo.png",
+        apple: "/logo.png",
+    },
+    openGraph: {
+        title: "Akıllı Çağrı - Otomatize Telekom AI",
+        description: "Kobiler için yeni nesil yapay zeka asistanı.",
+        images: ["/logo.png"],
+        locale: "tr_TR",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Akıllı Çağrı - Otomatize Telekom AI",
+        description: "Kobiler için yeni nesil yapay zeka asistanı.",
+        images: ["/logo.png"],
+    },
 };
 
 export default function RootLayout({
