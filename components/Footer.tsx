@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export function Footer() {
     return (
         <footer className="w-full border-t border-slate-800/50 bg-slate-950 py-12 md:py-24 lg:py-32">
@@ -9,7 +11,7 @@ export function Footer() {
                     <div className="space-y-4">
                         <Link className="flex items-center gap-2" href="#">
                             <Image 
-                                src="/logo.png" 
+                                src={`${basePath}/logo.png`}
                                 alt="Akıllı Çağrı" 
                                 width={140} 
                                 height={46}
