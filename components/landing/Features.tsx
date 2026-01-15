@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/Card";
+import { Card } from "@/components/ui/card";
 import { Mic, Clock, Calendar, Shield, Zap, Users } from "lucide-react";
 
 const features = [

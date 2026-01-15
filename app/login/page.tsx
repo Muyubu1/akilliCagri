@@ -1,7 +1,8 @@
-import { Button } from "@/components/ui/Button";
-import { Card } from "@/components/ui/Card";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import Link from "next/link";
 import Image from "next/image";
+import logoImage from "@/assets/logoAkıllıCagrı.png";
 
 export default function LoginPage() {
     return (
@@ -13,7 +14,7 @@ export default function LoginPage() {
                 <div className="text-center mb-8">
                     <Link className="inline-block mb-4" href="/">
                         <Image 
-                            src="/logo.png" 
+                            src={logoImage} 
                             alt="Akıllı Çağrı" 
                             width={160} 
                             height={53}
