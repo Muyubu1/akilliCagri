@@ -4,6 +4,7 @@ const basePath = isProd ? '/akilliCagri' : '';
 
 const nextConfig = {
     output: 'export',
+    distDir: 'docs',
     basePath: basePath,
     assetPrefix: basePath,
     env: {
